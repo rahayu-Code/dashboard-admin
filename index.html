@@ -5,12 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>dashboard admin</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <nav></nav>
+      <div class="row1">
+        <div class="searchBar">
+          <span class="material-icons">search</span>
+          <input
+            type="text"
+            placeholder="Search for projects, users, or topics..."
+          />
+        </div>
+        <div class="profileCorner">
+          <span class="material-icons">notifications_active</span>
+          <img src="profile-picture.jpg" alt="Profile Picture" />
+          <p>morgan oakley</p>
+        </div>
+      </div>
+
+      <div class="row2">
+        <div class="profile">
+          <img src="profile-picture.jpg" alt="Profile Picture" />
+          <p>Hi,there,</p>
+          <h1>Morgan Oakley (@morgan)</h1>
+        </div>
+        <div class="btn">
+          <button>new</button>
+          <button>upload</button>
+          <button>share</button>
+        </div>
+      </div>
     </header>
-    <main></main>
-    <aside></aside>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">Messages</a></li>
+        <li><a href="#">History</a></li>
+        <li><a href="#">Tasks</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">Help</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="projects">
+        <h2>Your Projects</h2>
+        <article class="project-card">
+          <h3>Super Cool Project</h3>
+          <p>A brief description of this project.</p>
+          <div class="actions">
+            <span class="star-icon">⭐</span>
+            <span class="eye-icon">👁️</span>
+            <span class="lightbulb-icon">💡</span>
+          </div>
+        </article>
+        <!-- Add more project articles as needed -->
+      </section>
+
+      <aside class="announcements">
+        <h2>Announcements</h2>
+        <ul>
+          <li>
+            <strong>Site Maintenance:</strong> Scheduled maintenance this week.
+          </li>
+          <li>
+            <strong>Community Sharing Day:</strong> A community-sharing event
+            happening this weekend.
+          </li>
+          <li>
+            <strong>Privacy Policy Update:</strong> Check out the latest
+            changes.
+          </li>
+        </ul>
+      </aside>
+
+      <aside class="trending">
+        <h2>Trending</h2>
+        <ul>
+          <li>@tegan - World Peacemaker</li>
+          <li>@morgan - Super Cool Project</li>
+          <li>@kendall - Life-Changing App</li>
+          <li>@alex - Traffic Solution Creator</li>
+        </ul>
+      </aside>
+    </main>
   </body>
 </html>
