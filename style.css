@@ -204,3 +204,8 @@ main {
   border-radius: 10px;
   margin-top: 1rem;
 }
+.trending > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
